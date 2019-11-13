@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+	font-family: "Georgia", sans-serif;
+	background-color: rgb(0, 0, 0);
+	height: 1000px
+}
+
+/* NAV BAR START! */
+
+ul.nav {
+		position: fixed;
+		top: 0;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		width: 100%;
+		overflow: hidden;
+		background-color: rgb(0, 0, 0);
+		padding: 25px 0.1px;
+}
+
+ul.nav li {
+	float: left;
+}
+
+div.container {
+	position: relative;
+}
+
+#nav_title {
+	float: right;
+	margin-right: 35px;
+	color: rgb(255, 255, 255);
+}
+
+ul.nav li a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	padding: 25px 40px;
+}
+
+ul.nav a:hover {
+	background-color: rgb(90, 191, 170);
+	color: rgb(0, 0, 0);
+}
+
+/* shows what pg the user is currently on.
+when adding a new pg, be sure to relocate the id 
+to the correct tag to the title where it's located.*/
+#active {
+	background-color: rgb(245, 188, 66);
+	color: rgb(0, 0, 0);
+}
+/* NAV BAR END! */
+
+/* TITLE SECTION START! */
+
+img.title {
+	width: 100%; /* keep so that the img fills across the width of the page perfectly */
+	-webkit-filter: brightness(60%);
+	opacity: 85%;
+	position: static;
+	z-index: -1; /* places the img behind the text */
+}
+
+div.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 7.5em;
+	font-weight: bolder;
+	color: rgb(255, 255, 255);
+	text-shadow: 4px 4px 0px rgb(245, 188, 66), 8px 8px 0px rgb(0, 0, 0);
+}
+
+/* TITLE SECTION END! */
+
+div.trade_relations {
+	background-color: rgb(255, 255, 255);	
+	padding: 25px 1px;
+	display: block;
+	margin: auto;
+	width: 95%;
+	border-radius: 30px;
+}
+
+div.trade_relations h2 {
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
