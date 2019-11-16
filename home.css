@@ -1,0 +1,141 @@
+/* TITLE SECTION START! */
+
+img.title {
+	width: 100%; /* keep so that the img fills across the width of the page perfectly */
+	-webkit-filter: brightness(50%);
+	opacity: 85%;
+	position: static;
+	z-index: -1; /* places the img behind the text */
+}
+
+div.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 7.5em;
+	font-weight: bolder;
+	color: rgb(255, 255, 255);
+	text-shadow: 4px 4px 0px rgb(245, 188, 66), 8px 8px 0px rgb(0, 0, 0);
+	border: 6px double rgb(255, 255, 255);
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 1em;
+}
+
+/* TITLE SECTION END! */
+
+/* CONTENT SECTION START! */
+
+.content_section {
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+section.content_section h2 {
+	text-align: center;
+	font-size: 4em;
+	margin-bottom: 20px;
+	text-shadow: 2px 2px 0px rgb(90, 191, 170);
+}
+
+section.content_section a {
+	color: rgb(245, 188, 66);
+	text-decoration: none;
+	text-align: center;
+	line-height: 2em;
+}
+
+section.content_section a:hover {
+	color: rgb(90, 191, 170);
+	font-size: 1.1em;
+}
+
+p.back_to_top {
+	text-align: center;
+
+}
+
+p.back_to_top a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);	
+}
+
+p.back_to_top a:hover {
+	background-color: rgb(245, 188, 66);
+	padding: 3px;
+}
+
+/* CONTENT SECTION END! */
+
+/* TRADE RELATION SECTION START! */
+div.trade_relations {
+	background-color: rgb(255, 255, 255);	
+	padding: 25px 1px;
+	display: block;
+	margin: auto;
+	width: 95%;
+	border-radius: 30px;
+}
+
+div.trade_relations h2 {
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
+
+.ca_flag {
+	display: block;
+	margin: auto;
+	border-radius: 110%;
+	box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.7);
+	border: 5px inset rgb(90, 191, 170);
+}
+
+hr {
+	width: 50%;
+}
+
+p.trade_relations {
+	margin-left: 60px;
+	margin-right: 60px;
+	line-height: 2em;
+	text-align: center;
+}
+
+/* TRADE RELATION SECTION END! */
+
+/* FAST FACTS START! */
+#fast_facts {
+	color: rgb(245, 188, 66);
+	text-align: center;
+	margin-top: 2.5em;
+}
+
+.fast_facts table {
+	color: rgb(0, 0, 0);
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fast_facts table th {
+	font-size: 19px;
+}
+
+.fast_facts table td{
+	background-color: rgb(255, 255, 255);
+	padding: 10px 20px;
+}
+
+td.head {
+	font-weight: bold;
+}
+
+div.fast_facts p.back_to_top a {
+	color: rgb(255, 255, 255);
+}
+
+div.fast_facts p.back_to_top a:hover {
+	color: rgb(0, 0, 0);
+}
+
+/* FAST FACTS END! */
