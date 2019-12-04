@@ -1,0 +1,73 @@
+/* CULTURE SECTION START! */
+
+	/* DOS & TABOOS SECTION START! */
+	
+h3 {
+	text-align: center;
+	margin-bottom: 20px;
+}	
+	
+	/* DOS & TABOOS SECTION END! */
+
+div.culture_differences {
+	background-color: rgb(255, 255, 255);	
+	padding: 25px 1px;
+	display: block;
+	margin: auto;
+	width: 95%;
+	border-radius: 30px;
+}
+
+div.culture_differences h2 {
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
+
+hr {
+	width: 50%;
+}
+
+.market {
+	display: block;
+	margin: auto;
+	border-radius: 5%;
+	box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.7);
+	border: 5px groove rgb(245, 188, 66);
+}
+
+	/* CULUTRAL DIFFERENCES TABLE START! */
+.culture_differences table {
+	color: rgb(0, 0, 0);
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px ridge rgb(245, 188, 66);
+	padding: 30px;
+}
+
+.culture_differences table th {
+	font-size: 19px;
+	padding: 10px;
+	border: 2px solid rgb(0, 0, 0);
+}
+
+.culture_differences table td{
+	background-color: rgb(255, 255, 255);
+	padding: 10px 20px;
+	border: 1px solid rgb(0, 0, 0);
+}
+
+td.head {
+	font-weight: bold;
+}
+	/* CULUTRAL DIFFERENCES TABLE END! */
+	
+
+
+/* CULTURE SECTION END! */
+p.culture_differences {
+	margin-left: 60px;
+	margin-right: 60px;
+	line-height: 2em;
+	text-align: center;
+}
