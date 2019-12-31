@@ -42,21 +42,16 @@ hr {
 
 	/* CULUTRAL DIFFERENCES TABLE START! */
 .culture_differences table {
-	color: rgb(0, 0, 0);
 	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
 	border: 5px ridge rgb(245, 188, 66);
-	padding: 30px;
+	border-collapse: collapse;
+	table-layout: auto;
 }
 
-.culture_differences table th {
-	font-size: 19px;
-	padding: 10px;
-	border: 2px solid rgb(0, 0, 0);
-}
 
-.culture_differences table td{
+.culture_differences table td, th{
 	background-color: rgb(255, 255, 255);
 	padding: 10px 20px;
 	border: 1px solid rgb(0, 0, 0);
