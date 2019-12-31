@@ -1,13 +1,81 @@
+
 /* POST SECTION START! */
 #post_1 {
 	background-color: rgb(255, 255, 255);	
 	padding: 25px 1px;
 	display: block;
-	margin: 100px 0px 50px 50px;
-	width: 40%;
+	margin: 100px 0px 50px 40px;
+	width: 45%;
 	border-radius: 30px;
 	float: left;
 	
+}
+
+ul.jolibee {
+	line-height: 1.5em;
+	margin-left: 50px;
+}
+
+div.clear_1 {
+	clear: right;
+}
+
+#post_2 {
+	background-color: rgb(255, 255, 255);	
+	padding: 25px 1px;
+	display: block;
+	margin: 100px 40px 20px 0px;
+	width: 45%;
+	border-radius: 30px;
+	float: right;
+}
+
+h3.edu {
+	margin-left: 75px;
+}
+
+ol.edu {
+	line-height: 1.5em;
+	margin-left: 50px;
+}
+
+table.edu {
+	text-align: center;
+	border: 1px solid black;
+	border-collapse: collapse;
+	table-layout: auto;
+	margin: 15px;
+}
+
+table.edu th,td {
+	border: 1px solid black;
+	width: 50%;
+	padding: 10px;
+}
+
+div.clear_2 {
+	clear: left;
+}
+
+#post_3 {
+	background-color: rgb(255, 255, 255);	
+	padding: 25px 1px;
+	display: block;
+	margin: 0px 25px 50px 40px;
+	width: 45%;
+	border-radius: 30px;
+	float: left;
+	
+}
+
+#post_4 {
+	background-color: rgb(255, 255, 255);	
+	padding: 25px 1px;
+	display: block;
+	margin: 0px 40px 50px 25px;
+	width: 45%;
+	border-radius: 30px;
+	float: left;
 }
 
 div.post h2 {
@@ -32,3 +100,9 @@ footer.clear {
 }
 
 /* POST SECTION END! */
+
+/* IMAGES SECTION START! */
+img.jolibee {
+	width: 50%;
+}
+/* IMAGE SECTION END! */
