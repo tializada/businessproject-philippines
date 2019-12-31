@@ -1,0 +1,35 @@
+/* TRADE RELATION SECTION START! */
+div.trade_relations {
+	background-color: rgb(255, 255, 255);	
+	padding: 25px 1px;
+	display: block;
+	margin: auto;
+	width: 95%;
+	border-radius: 30px;
+}
+
+div.trade_relations h2 {
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
+
+.ca_flag {
+	display: block;
+	margin: auto;
+	border-radius: 110%;
+	box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.7);
+	border: 5px inset rgb(90, 191, 170);
+}
+
+hr {
+	width: 50%;
+}
+
+p.trade_relations {
+	margin-left: 60px;
+	margin-right: 60px;
+	line-height: 2em;
+	text-align: center;
+}
+
+/* TRADE RELATION SECTION END! */
