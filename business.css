@@ -1,35 +1,64 @@
-/* TRADE RELATION SECTION START! */
-div.trade_relations {
-	background-color: rgb(255, 255, 255);	
-	padding: 25px 1px;
-	display: block;
-	margin: auto;
-	width: 95%;
-	border-radius: 30px;
+/* MISC SECTION START! */
+p.back_to_top {
+	text-align: center;
+	margin-top: 40px;
 }
 
-div.trade_relations h2 {
+p.back_to_top a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);	
+}
+
+p.back_to_top a:hover {
+	background-color: rgb(245, 188, 66);
+	padding: 3px;
+}
+
+#white{
 	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 25px 1px;
+	display: block;
+	width: 100%;
+}
+
+#black {
+	color: rgb(255, 255, 255);
+	padding: 25px 1px;
+	text-align: center;
+}
+/* BACK SECTION END! */
+
+/* ADVANTAGE SECTION START! */
+div.advantage h2 {
 	text-align: center;
 }
 
-.ca_flag {
+.rice {
 	display: block;
-	margin: auto;
-	border-radius: 110%;
-	box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.7);
-	border: 5px inset rgb(90, 191, 170);
-}
-
-hr {
 	width: 50%;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 10%;
+	box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.7);
+	border: 5px outset rgb(245, 188, 6);
 }
 
-p.trade_relations {
+
+p {
 	margin-left: 60px;
 	margin-right: 60px;
 	line-height: 2em;
 	text-align: center;
 }
 
-/* TRADE RELATION SECTION END! */
+ul.op {
+	margin-left: 35%;
+	line-height: 2em;
+	text-align: left;
+}
+
+/* ADVANTAGE SECTION END! */
+
+/**/
