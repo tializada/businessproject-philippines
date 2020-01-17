@@ -124,6 +124,10 @@ li.about a {
 	color: rgb(0, 0, 0);
 }
 
+li#about_2 a{
+	margin-left: 427px;
+}
+
 li.about a:hover {
 	font-size: 16.6px;
 	color: rgb(0, 0, 0);
@@ -134,6 +138,18 @@ li.about a:active {
 	font-size: 16.6px;
 	color: rgb(255, 255, 255);
 	text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.citation {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 5px;
+	font-size: 13px;
+}
+
+.citation a {
+	text-decoration: underline;
+	color: black;
 }
 
 /* FOOTER SECTION END! */

@@ -28,7 +28,7 @@ p.back_to_top a:hover {
 	padding: 25px 1px;
 	text-align: center;
 }
-/* BACK SECTION END! */
+/* MISC SECTION END! */
 
 /* ADVANTAGE SECTION START! */
 div.advantage h2 {
@@ -37,7 +37,7 @@ div.advantage h2 {
 
 .rice {
 	display: block;
-	width: 50%;
+	width: 40%;
 	margin: auto;
 	margin-top: 100px;
 	border-radius: 10%;
@@ -58,7 +58,17 @@ ul.op {
 	line-height: 2em;
 	text-align: left;
 }
-
 /* ADVANTAGE SECTION END! */
 
-/**/
+/* TRADE START! */
+.truck {
+	border: 7px ridge rgb(255, 255, 255);
+}
+
+.trade_agree ul li {
+	list-style-position: inside;
+	text-align: left;
+	margin-left: 150px;
+	line-height: 40px;
+}
+/* TRADE AGREEMENT END! */

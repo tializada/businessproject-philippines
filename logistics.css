@@ -1,0 +1,77 @@
+/* MISC SECTION START! */
+#white{
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 25px 1px;
+	display: block;
+	width: 100%;
+}
+
+#black {
+	color: rgb(255, 255, 255);
+	padding: 25px 1px;
+	text-align: center;
+}
+
+p {
+	margin-left: 60px;
+	margin-right: 60px;
+	line-height: 2em;
+	text-align: center;
+}
+
+/* MISC SECTION END! */
+
+/* TITLE SECTION START! */
+img.title {
+	width: 100%; /* keep so that the img fills across the width of the page perfectly */
+	-webkit-filter: brightness(50%);
+	opacity: 85%;
+	position: static;
+	z-index: -1; /* places the img behind the text */
+}
+
+div.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 7em;
+	font-weight: bolder;
+	color: rgb(255, 255, 255);
+	text-shadow: 4px 4px 0px rgb(245, 188, 66), 8px 8px 0px rgb(0, 0, 0);
+	border: 6px double rgb(255, 255, 255);
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 1em;
+}
+
+/* TITLE SECTION END! */
+
+/* ACTIVITY START! */
+
+.log h2 {
+	margin-top: 100px;
+}
+
+p.comp {
+	text-decoration: underline;
+}
+
+.comp li {
+	line-height: 25px;
+	list-style-position: inside;
+}
+/* ACTIVITY END! */
+
+.sgs {
+	width: 30%;
+}
+
+.lsc {
+	width: 30%;
+}
+
+.clh {
+	width: 30%;
+}
